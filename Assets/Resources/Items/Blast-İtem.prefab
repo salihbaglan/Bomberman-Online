@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -2879048893240840021}
   - component: {fileID: 4391313628756810289}
   - component: {fileID: 3917543817156061459}
+  - component: {fileID: 8960693312762491373}
   m_Layer: 11
   m_Name: "Blast-\u0130tem"
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3300237305943243463, guid: 82126e3f80e94d145b32efa5b1b740cf,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -156,3 +157,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 308180cd38e448947beeac6b65587f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8960693312762491373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611157243073558462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

@@ -1,4 +1,5 @@
 using Photon.Pun;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -40,14 +41,15 @@ public class BombController : MonoBehaviourPunCallbacks
 
     private void Start()
     {
+       
+    }
+    private void OnEnable()
+    {
         if (photonView.IsMine)
         {
             InputManager.Instance.OnClickBomb.AddListener(OnClickBomb);
             InputManager.Instance.OnLeavekBomb.AddListener(DropBomb);
         }
-    }
-    private void OnEnable()
-    {
         bombsRemaining = bombAmount;
     }
 
@@ -193,7 +195,6 @@ public class BombController : MonoBehaviourPunCallbacks
     public void OnItemEaten()
     {
         StartCoroutine(DropBombsRoutine());
-        BombDropGo.SetActive(true);
     }
 
     private IEnumerator DropBombsRoutine()
@@ -212,7 +213,6 @@ public class BombController : MonoBehaviourPunCallbacks
 
             timer += bombDropInterval;
         }
-        BombDropGo.SetActive(false);
     }
 
     public void ExplosionRadius()
@@ -239,7 +239,6 @@ public class BombController : MonoBehaviourPunCallbacks
     {
         // Ýtme özelliðini etkinleþtir
         canIPush = true;
-        PushGo.SetActive(true);
     }
 
     public void ExplosionButtonItem()
@@ -269,5 +268,9 @@ public class BombController : MonoBehaviourPunCallbacks
 
     }
 
+    internal void Reset()
+    {
+        
+    }
 }
 

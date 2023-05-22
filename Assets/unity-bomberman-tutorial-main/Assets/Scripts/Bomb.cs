@@ -35,7 +35,6 @@ public class Bomb : MonoBehaviourPunCallbacks
 
     public void Initialize(float bombFuseTime, int radius)
     {
-        Debug.Log($"Bomb Initilized with  bombFuseTime: {bombFuseTime},radius: {radius} ");
         lifeTime = bombFuseTime;
         explosionRadius = radius;
         isInit = true;

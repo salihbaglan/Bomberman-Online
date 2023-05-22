@@ -1,3 +1,4 @@
+using Photon.Pun;
 using UnityEngine;
 
 public class Destructible : MonoBehaviour
@@ -17,6 +18,8 @@ public class Destructible : MonoBehaviour
 
     private void OnDestroy()
     {
+        if (!PhotonNetwork.IsMasterClient) return;
+
         // Yaratýklarýn yeni bir nesne yaratma olasýlýðýný kontrol etme ve nesneyi yaratma
         if (spawnableItems.Length > 0 && Random.value < itemSpawnChance)
         {
@@ -24,7 +27,8 @@ public class Destructible : MonoBehaviour
             int randomIndex = Random.Range(0, spawnableItems.Length);
 
             // Seçilen nesneyi mevcut nesnenin konumunda ve varsayýlan dönüþümde yaratma
-            Instantiate(spawnableItems[randomIndex], transform.position, Quaternion.identity);
+            PhotonNetwork.Instantiate("Items/" + spawnableItems[randomIndex].name, transform.position, Quaternion.identity);
         }
     }
+
 }

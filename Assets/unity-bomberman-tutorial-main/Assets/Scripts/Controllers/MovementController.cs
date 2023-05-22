@@ -34,8 +34,10 @@ public class MovementController : Singleton<MovementController>
     [SerializeField] private LayerMask wallLayer; // Duvar katmaný
     private float ghostDuration = 5f;//isGhoos'tu false çevir
     PhotonView view;
+    PlayerController playerController;
     private void Awake()
     {
+        playerController = GetComponent<PlayerController>();
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown; // Baþlangýçta aþaðý dönük sprite renderer'ý aktif olarak ayarla
     }
@@ -46,7 +48,8 @@ public class MovementController : Singleton<MovementController>
     }
     private void Update()
     {
-        SetDirection(InputManager.Instance.Move); // Hareket yönünü ayarla       c
+
+        if (view.IsMine && !playerController.isDead) SetDirection(InputManager.Instance.Move); // Hareket yönünü ayarla       c
     }
 
     private void FixedUpdate()
@@ -56,7 +59,7 @@ public class MovementController : Singleton<MovementController>
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, moveDistance, wallLayer);
         // Önümde duvar yoksa veya hayalet modunda ise (isGhost).
-        if (hit.collider == null || isGhost)
+        if ((hit.collider == null || isGhost) && view.IsMine && !playerController.isDead)
         {
             Move(); // Hareket et
         }
@@ -64,7 +67,11 @@ public class MovementController : Singleton<MovementController>
     }
 
 
-
+    public void Reset()
+    {
+        isGhost = false;
+        speed = 2.5f;
+    }
 
     /// <summary>
     /// Karakterin hareket etmesini saðlar.
@@ -80,84 +87,74 @@ public class MovementController : Singleton<MovementController>
     [SerializeField]
     private void SetDirection(Vector2 newDirection)
     {
-        if (view.IsMine)
+
+        AnimatedSpriteRenderer spriteRenderer;
+
+        if (newDirection == Vector2.up)
         {
-            AnimatedSpriteRenderer spriteRenderer;
-
-            if (newDirection == Vector2.up)
-            {
-                spriteRenderer = spriteRendererUp;
-            }
-            else if (newDirection == Vector2.down)
-            {
-                spriteRenderer = spriteRendererDown;
-            }
-            else if (newDirection == Vector2.left)
-            {
-                spriteRenderer = spriteRendererLeft;
-            }
-            else if (newDirection == Vector2.right)
-            {
-                spriteRenderer = spriteRendererRight;
-            }
-            else
-            {
-                spriteRenderer = activeSpriteRenderer;
-            }
-
-            direction = newDirection;
-
-            spriteRendererUp.enabled = spriteRenderer == spriteRendererUp;
-            spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
-            spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
-            spriteRendererRight.enabled = spriteRenderer == spriteRendererRight;
-
-            activeSpriteRenderer = spriteRenderer;
-            activeSpriteRenderer.idle = direction == Vector2.zero;
+            spriteRenderer = spriteRendererUp;
         }
+        else if (newDirection == Vector2.down)
+        {
+            spriteRenderer = spriteRendererDown;
+        }
+        else if (newDirection == Vector2.left)
+        {
+            spriteRenderer = spriteRendererLeft;
+        }
+        else if (newDirection == Vector2.right)
+        {
+            spriteRenderer = spriteRendererRight;
+        }
+        else
+        {
+            spriteRenderer = activeSpriteRenderer;
+        }
+
+        direction = newDirection;
+
+        spriteRendererUp.enabled = spriteRenderer == spriteRendererUp;
+        spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
+        spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
+        spriteRendererRight.enabled = spriteRenderer == spriteRendererRight;
+
+        activeSpriteRenderer = spriteRenderer;
+        activeSpriteRenderer.idle = direction == Vector2.zero;
+
+        if (view != null && view.IsMine)
+        {
+            view.RPC("SetDirectionRPC", RpcTarget.Others, newDirection);
+        }
+
+    }
+
+    [PunRPC]
+    public void SetDirectionRPC(Vector2 newDirection)
+    {
+        SetDirection(newDirection);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion") && view.IsMine)
         {
-            DeathSequence();
-
+            view.RPC("DeadRPC", RpcTarget.All);
         }
 
     }
 
 
-    private void DeathSequence()
-    {
-        enabled = false;
-        GetComponent<BombController>().enabled = false;
 
-        spriteRendererUp.enabled = false;
-        spriteRendererDown.enabled = false;
-        spriteRendererLeft.enabled = false;
-        spriteRendererRight.enabled = false;
-        spriteRendererDeath.enabled = true;
-
-        Invoke(nameof(OnDeathSequenceEnded), 1.25f);
-    }
-
-    private void OnDeathSequenceEnded()
-    {
-        gameObject.SetActive(false);
-    }
 
     public void Ghost()
     {
         isGhost = true;
-        GhostGo.SetActive(true);
         StartCoroutine(DisableGhostAfterDelay());
     }
     //isGhostu false çevir
     private IEnumerator DisableGhostAfterDelay()
     {
         yield return new WaitForSeconds(ghostDuration);
-        GhostGo.SetActive(false);
 
         Vector2 RoundedPosition;
         var bombControler = GetComponent<BombController>();
@@ -184,12 +181,11 @@ public class MovementController : Singleton<MovementController>
     //Hýzý 5 Sniyeliðine 8 e eþitleme kodu
     IEnumerator SetSpeed(float maxSpeed, float duration)
     {
-        SpeedGo.SetActive(true);
+
         float oldSpeed = speed;
         speed = maxSpeed;
         yield return new WaitForSeconds(duration);
         speed = 2.5f;
-        SpeedGo.SetActive(false);
 
 
     }

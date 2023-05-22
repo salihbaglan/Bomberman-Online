@@ -24,6 +24,9 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
+
+    private Vector3 GetRandomPos => spawnPoints[Random.Range(0, spawnPoints.Length)].position;
+
     private void Start()
     {
         CreatePlayer();
@@ -31,8 +34,11 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     private void CreatePlayer()
     {
-        int randomIndex = Random.Range(0, spawnPoints.Length);
-        Vector3 randomPosition = spawnPoints[randomIndex].position;
-        PhotonNetwork.Instantiate(characterPrefab.name, randomPosition, Quaternion.identity);
+        PhotonNetwork.Instantiate(characterPrefab.name, GetRandomPos, Quaternion.identity);
+    }
+
+    public void ReSpawn()
+    {
+        localPlayer.photonView.RPC("SpawnRPC", RpcTarget.All, GetRandomPos);
     }
 }
