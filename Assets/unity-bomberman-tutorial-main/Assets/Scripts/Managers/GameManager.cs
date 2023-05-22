@@ -1,29 +1,38 @@
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviourPunCallbacks
 {
     public GameObject[] players;
+    public GameObject characterPrefab;
+    public Transform[] spawnPoints;
 
-    //public void CheckWinState()
-    //{
-    //    int aliveCount = 0;
 
-    //    foreach (GameObject player in players)
-    //    {
-    //        if (player.activeSelf) {
-    //            aliveCount++;
-    //        }
-    //    }
+    public PlayerController localPlayer;
 
-    //    if (aliveCount <= 1) {
-    //        Invoke(nameof(NewRound), 3f);
-    //    }
-    //}
+    private static GameManager instance;
+    public static GameManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = GameObject.FindObjectOfType<GameManager>();
+            }
+            return instance;
+        }
+    }
 
-    //private void NewRound()
-    //{
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    //}
+    private void Start()
+    {
+        CreatePlayer();
+    }
 
+    private void CreatePlayer()
+    {
+        int randomIndex = Random.Range(0, spawnPoints.Length);
+        Vector3 randomPosition = spawnPoints[randomIndex].position;
+        PhotonNetwork.Instantiate(characterPrefab.name, randomPosition, Quaternion.identity);
+    }
 }

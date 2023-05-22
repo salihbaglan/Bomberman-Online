@@ -7,23 +7,30 @@ using UnityEngine.SceneManagement;
 
 public class ConnectToServers : MonoBehaviourPunCallbacks
 {
-    public InputField usernameInput;
-    public Text buttonText;
 
-    public void OnClickConnect()
+    void Start()
     {
-        if(usernameInput.text.Length >= 1)
-        {
-            PhotonNetwork.NickName = usernameInput.text;
-            buttonText.text = "Connecting...";
-            PhotonNetwork.AutomaticallySyncScene = true;
-            PhotonNetwork.ConnectUsingSettings();
+        ConnectToTheServer();
+    }
+    public void ConnectToTheServer()
+    {
 
-        }
+        PhotonNetwork.NickName = "User" + Random.Range(1, 100);
+        PhotonNetwork.AutomaticallySyncScene = true;
+        PhotonNetwork.ConnectUsingSettings();
+
+
     }
 
     public override void OnConnectedToMaster()
     {
-        SceneManager.LoadScene("Lobby");
+
+        PhotonNetwork.JoinRandomOrCreateRoom();
+    }
+
+    public override void OnJoinedRoom()
+    {
+        base.OnJoinedRoom();
+        SceneManager.LoadScene("Bomberman");
     }
 }

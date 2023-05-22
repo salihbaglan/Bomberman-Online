@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using Photon.Pun;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class Bomb : MonoBehaviour
+public class Bomb : MonoBehaviourPunCallbacks
 {
 
     [Header("Explosion")]
@@ -14,29 +15,36 @@ public class Bomb : MonoBehaviour
 
 
     [Header("Destructible")]
-    public Tilemap destructibleTiles; // Yýkýlabilir tilemap
     public Destructible destructiblePrefab; // Yýkýlabilir prefab
 
     private Vector2 targetPos = Vector2.zero;
     [SerializeField] private float movementSpeed = 1;
+    [SerializeField] private float lifeTime = 1;
+    private bool isInit = false;
 
-    [SerializeField] private float lifeTime = 0;
     private void Start()
     {
         // Başlangıçta hedef pozisyonu mevcut pozisyona eşitle
         targetPos = transform.position;
+        object[] instantiationData = photonView.InstantiationData;
+        if (instantiationData != null && instantiationData.Length > 0)
+        {
+            Initialize((float)instantiationData[0], (int)instantiationData[1]);
+        }
     }
 
-    public void Initialize(float bombFuseTime,int radius)
+    public void Initialize(float bombFuseTime, int radius)
     {
+        Debug.Log($"Bomb Initilized with  bombFuseTime: {bombFuseTime},radius: {radius} ");
         lifeTime = bombFuseTime;
-        explosionRadius= radius;
-        DoExplotion();
+        explosionRadius = radius;
+        isInit = true;
     }
 
     // Her karede bir kez çağrılan Update fonksiyonu
     public void Update()
     {
+        if (!isInit) return;
         // Eğer mevcut pozisyon ile hedef pozisyon arasındaki mesafe 0'dan büyük ise
         if (Vector2.Distance(transform.position, targetPos) > 0)
         {
@@ -78,7 +86,7 @@ public class Bomb : MonoBehaviour
         Explode(position, Vector2.left, explosionRadius);
         Explode(position, Vector2.right, explosionRadius);
 
-
+        GameManager.Instance.localPlayer.AddRemainingBomb();
         Destroy(gameObject);
     }
 

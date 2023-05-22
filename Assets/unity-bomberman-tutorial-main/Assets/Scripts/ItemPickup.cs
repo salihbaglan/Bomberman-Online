@@ -57,7 +57,7 @@ public class ItemPickup : MonoBehaviour
                 break;
 
             case ItemType.KeyItem:
-                player.GetComponent<MovementController>().KeyÝtem(); // Anahtar öðesini alan fonksiyonu çaðýrýr
+                player.GetComponent<MovementController>().Keyitem(); // Anahtar öðesini alan fonksiyonu çaðýrýr
                 break;
 
             case ItemType.MaxRadius:

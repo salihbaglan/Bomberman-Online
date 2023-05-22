@@ -127,11 +127,12 @@ MonoBehaviour:
     type: 3}
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 8448
-  explosionDuration: 1
+    m_Bits: 8192
+  explosionDuration: 0.5
   explosionRadius: 3
-  destructibleTiles: {fileID: 0}
-  destructiblePrefab: {fileID: 0}
+  MaxexplosionRadius: 7
+  destructiblePrefab: {fileID: -8738203639632321532, guid: 1ac7a5f8ae90ed04aa34c0753307c241,
+    type: 3}
   movementSpeed: 5
   lifeTime: 2
 --- !u!61 &4570138292530064978

@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: -7792408413324765451}
   - component: {fileID: -5090907482398867361}
   - component: {fileID: -6014635433477643306}
+  - component: {fileID: 1107683169988258061}
   m_Layer: 8
   m_Name: Character
   m_TagString: Player
@@ -331,26 +332,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5840e75ee3ae56845a89a34660cd2f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3939017888894637700, guid: e10230ffd5e90c3489946b2652130401,
+  explosionRadius: 1
+  MaxexplosionRadius: 7
+  bombDropInterval: 0.9
+  bombDropDuration: 7
+  bombPrefab: {fileID: 3939017888894637700, guid: 9a439e0b35b4779439d11d80f10cd1d8,
     type: 3}
   bombFuseTime: 2.5
   bombAmount: 2
   maxBombAmount: 7
   ExplosionButton: 0
   isActiveController: 0
-  explosionPrefab: {fileID: 805732483383335703, guid: 7d7e9c7ce1308484e863a8b4489e090f,
-    type: 3}
-  explosionLayerMask:
-    serializedVersion: 2
-    m_Bits: 8448
-  explosionDuration: 0.5
-  explosionRadius: 1
-  MaxexplosionRadius: 7
-  bombDropInterval: 0.9
-  bombDropDuration: 7
-  destructibleTiles: {fileID: 0}
-  destructiblePrefab: {fileID: -8738203639632321532, guid: 1ac7a5f8ae90ed04aa34c0753307c241,
-    type: 3}
   canIPush: 0
   bombPushLayers:
     serializedVersion: 2
@@ -417,6 +409,18 @@ MonoBehaviour:
   m_SynchronizeAngularVelocity: 0
   m_TeleportEnabled: 0
   m_TeleportIfDistanceGreaterThan: 3
+--- !u!114 &1107683169988258061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5561990747018967719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d13dab52aecd74186e05e385cf6fee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5561990747148260079
 GameObject:
   m_ObjectHideFlags: 0
