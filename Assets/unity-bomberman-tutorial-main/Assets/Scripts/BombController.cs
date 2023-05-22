@@ -6,6 +6,14 @@ using UnityEngine.Tilemaps;
 
 public class BombController : Singleton<BombController>
 {
+    [Header("Explotion")]
+    public int explosionRadius = 1; // Patlama yarýçapý
+    [SerializeField] private int MaxexplosionRadius = 7; // Maksimum patlama yarýçapý
+
+
+    [Header("Bomb Drop")]
+    public float bombDropInterval = 0.9f; // Bomba býrakma aralýðý
+    public float bombDropDuration = 7f; // Bomba býrakma süresi
 
     public GameObject bombPrefab; // Bomba prefabý
     public float bombFuseTime = 3f; // Bomba fitil süresi
@@ -15,18 +23,9 @@ public class BombController : Singleton<BombController>
     public bool ExplosionButton = false; // Patlama tuþu
     public bool isActiveController = true; // Kontrolcü aktif mi?
 
-    [Header("Explosion")]
-    public Explosion explosionPrefab; // Patlama prefabý
-    public LayerMask explosionLayerMask; // Patlama katmaný maskesi
-    public float explosionDuration = 1f; // Patlama süresi
-    public int explosionRadius = 1; // Patlama yarýçapý
-    [SerializeField] private int MaxexplosionRadius = 7; // Maksimum patlama yarýçapý
-    public float bombDropInterval = 0.9f; // Bomba býrakma aralýðý
-    public float bombDropDuration = 7f; // Bomba býrakma süresi
 
-    [Header("Destructible")]
-    public Tilemap destructibleTiles; // Yýkýlabilir tilemap
-    public Destructible destructiblePrefab; // Yýkýlabilir prefab
+
+
 
     public bool canIPush = false; // Ýterek itme özelliði
     [SerializeField] private LayerMask bombPushLayers; // Ýterek itme katmaný
@@ -75,12 +74,12 @@ public class BombController : Singleton<BombController>
         var copyOfBombs = bombs.ToArray();
         foreach (var bomb in copyOfBombs)
         {
-            Bombed(bomb);
+            bomb.GetComponent<Bomb>().DoExplotion();
         }
     }
 
     // Bomba yerleþtirme iþlemi
-    public IEnumerator PlaceBomb()
+    public void PlaceBomb()
     {
 
         Vector2 bombPosition = transform.position;
@@ -92,21 +91,32 @@ public class BombController : Singleton<BombController>
 
         // Duvarýn üzerindeyken bomba býrakmayý engelle
         Collider2D hit = Physics2D.OverlapCircle(bombPosition, placeBombRadius, bombCantPlaceLayers);
-
         if (hit == null)
         {
             // Bombayý ekle ve diðer iþlemleri yap
-            GameObject bomb = Instantiate(bombPrefab, bombPosition, Quaternion.identity);
+            var bomb = Instantiate(bombPrefab, bombPosition, Quaternion.identity);
             bombs.Add(bomb);
             bombAmount--;
             bombsRemaining--;
+            bomb.GetComponent<Bomb>().Initialize(bombFuseTime, explosionRadius);
 
-            if (!ExplosionButton)
-            {
-                yield return new WaitForSeconds(bombFuseTime);
-                Bombed(bomb);
-            }
         }
+
+        //if (hit == null)
+        //{
+        //    // Bombayý ekle ve diðer iþlemleri yap
+        //    GameObject bomb = Instantiate(bombPrefab, bombPosition, Quaternion.identity);
+        //    bombs.Add(bomb);
+        //    bombAmount--;
+        //    bombsRemaining--;
+
+        //    if (!ExplosionButton)
+        //    {
+        //        yield return new WaitForSeconds(bombFuseTime);
+        //        Bombed(bomb);
+        //    }
+        //}
+
 
     }
 
@@ -122,71 +132,11 @@ public class BombController : Singleton<BombController>
         Gizmos.DrawSphere(bombPosition, placeBombRadius);
     }
 
-    private void Bombed(GameObject bomb)
-    {
-        // Bombanýn bulunduðu konumu al
-        Vector2 position = bomb.transform.position;
-
-        // Patlama efektini oluþtur ve baþlangýç durumunu ayarla
-        Explosion explosion1 = Instantiate(explosionPrefab, position, Quaternion.identity);
-        explosion1.SetActiveRenderer(explosion1.start);
-        explosion1.DestroyAfter(explosionDuration);
-
-        // Patlamayý yukarý, aþaðý, sola ve saða doðru geniþlet
-        Explode(position, Vector2.up, explosionRadius);
-        Explode(position, Vector2.down, explosionRadius);
-        Explode(position, Vector2.left, explosionRadius);
-        Explode(position, Vector2.right, explosionRadius);
-
-        // Bomba sayýsýný ve kalan bomba sayýsýný artýr
-        bombAmount++;
-        bombsRemaining++;
-
-        // Yok olan bombayý listeden kaldýr ve yok et
-        bombs.Remove(bomb);
-        Destroy(bomb.gameObject);
-    }
-
-    private void Explode(Vector2 position, Vector2 direction, int length)
-    {
-        // Patlama uzunluðu 0 veya daha küçük ise iþlemi sonlandýr
-        if (length <= 0)
-        {
-            return;
-        }
 
 
-        // Yeni pozisyonu hesapla
-        position += direction;
-        var hit = Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, explosionLayerMask);
-        // Patlama sýrasýnda engelle çarpýþma var mý kontrol et
-        if (hit && !hit.CompareTag("Player"))
-        {
-            if (!hit.CompareTag("DontDestroy"))
-            {
-                // Eðer varsa yýkýlabilir tile'ý temizle
-                ClearDestructible(position, hit);
-            }
-            return;
-        }
 
-        // Patlama efektini oluþtur ve aktif durumu ayarla
-        Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
-        explosion.SetActiveRenderer(length > 1 ? explosion.middle : explosion.end);
-        explosion.SetDirection(direction);
-        explosion.DestroyAfter(explosionDuration);
 
-        // Patlamayý geniþletmek için Explode fonksiyonunu tekrar çaðýr
-        Explode(position, direction, length - 1);
-    }
-
-    private void ClearDestructible(Vector2 position, Collider2D hit)
-    {
-        Instantiate(destructiblePrefab, position, Quaternion.identity);
-        hit.gameObject.SetActive(false);
-        StartCoroutine(SpawnWalls(hit.gameObject));
-    }
-
+    // TODO: spawn wall mechanic add game manager
     private IEnumerator SpawnWalls(GameObject wall)
     {
         yield return new WaitForSeconds(60f);
@@ -204,7 +154,6 @@ public class BombController : Singleton<BombController>
             yield return new WaitForSeconds(1f);
         } while (hit != null);
         wall.SetActive(true);
-
     }
     public void AddBomb()
     {
@@ -225,13 +174,7 @@ public class BombController : Singleton<BombController>
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Explosion"))
-        {
 
-        }
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -278,7 +221,7 @@ public class BombController : Singleton<BombController>
             // Eðer hala bomba sayýsý varsa bomba býrakma iþlemini baþlat
             if (bombAmount > 0)
             {
-                StartCoroutine(PlaceBomb()); // Bomba býrakma kodunu çalýþtýr
+                PlaceBomb(); // Bomba býrakma kodunu çalýþtýr
             }
 
             timer += bombDropInterval;
@@ -335,7 +278,7 @@ public class BombController : Singleton<BombController>
 
         if (bombsRemaining > 0)
         {
-            StartCoroutine(PlaceBomb());
+            PlaceBomb();
         }
 
     }
