@@ -119,14 +119,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce246665e218b34ca811b9aeff0dc92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destructionTime: 1
-  itemSpawnChance: 0.608
+  destructionTime: 0.5
+  itemSpawnChance: 1
   spawnableItems:
   - {fileID: 6611157243073558462, guid: 07c650674855aa44fb54ef6f84d62e9a, type: 3}
   - {fileID: 1817301189981642750, guid: af25f6460359d124cb159dff34be0404, type: 3}
   - {fileID: 4403588800865264272, guid: 72ccb4d4fd831064eabc841b43681682, type: 3}
   - {fileID: 7548706198439975102, guid: d002a191a6d2a3442b8e0364bda89c42, type: 3}
   - {fileID: 6776687959974331198, guid: 38727d64b6093d64b9e500acb7f4a180, type: 3}
+  - {fileID: 5085868766011634310, guid: 5d9a274c49f6a3c4ba6e7bcf157d0adf, type: 3}
   - {fileID: 3758233892190255260, guid: 565872e92a5c7904c84727ec089eb1b5, type: 3}
   - {fileID: 6956103411456174, guid: 0e2948646a6825542a97cc458407025b, type: 3}
-  - {fileID: 7548706198439975102, guid: d002a191a6d2a3442b8e0364bda89c42, type: 3}
+  - {fileID: 8674692624194615120, guid: 85ae1c107719f574eb9ff60c33bdab6a, type: 3}

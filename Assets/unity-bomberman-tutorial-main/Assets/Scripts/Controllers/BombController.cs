@@ -41,7 +41,7 @@ public class BombController : MonoBehaviourPunCallbacks
 
     private void Start()
     {
-       
+
     }
     private void OnEnable()
     {
@@ -75,7 +75,7 @@ public class BombController : MonoBehaviourPunCallbacks
     // Patlama tuþuna basýldýðýnda tüm bombalarý patlatýr
     public void OnClickBomb()
     {
-        if (!ExplosionButton) return;
+        //if (!ExplosionButton) return;
         var copyOfBombs = bombs.ToArray();
         foreach (var bomb in copyOfBombs)
         {
@@ -116,6 +116,12 @@ public class BombController : MonoBehaviourPunCallbacks
         Gizmos.color = Color.red;
 
         Gizmos.DrawSphere(bombPosition, placeBombRadius);
+    }
+
+    internal void RemovoBomb(Bomb bomb)
+    {
+        if (bombs.Contains(bomb.gameObject))
+            bombs.Remove(bomb.gameObject);
     }
 
 
@@ -194,6 +200,7 @@ public class BombController : MonoBehaviourPunCallbacks
     // Çoklu Bomba Ýtemi fonksiyonu
     public void OnItemEaten()
     {
+        UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.MultiBomb);
         StartCoroutine(DropBombsRoutine());
     }
 
@@ -213,6 +220,7 @@ public class BombController : MonoBehaviourPunCallbacks
 
             timer += bombDropInterval;
         }
+        UIManager.Instance.HideItemIndicattor(ItemPickup.ItemType.MultiBomb);
     }
 
     public void ExplosionRadius()
@@ -238,13 +246,20 @@ public class BombController : MonoBehaviourPunCallbacks
     public void Push()
     {
         // Ýtme özelliðini etkinleþtir
+        UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.PushItem);
         canIPush = true;
     }
 
+    [PunRPC]
     public void ExplosionButtonItem()
     {
-        // Patlama düðmesini etkinleþtir
-        ExplosionButton = true;
+        if (photonView.IsMine)
+        {
+            // Patlama düðmesini etkinleþtir
+            UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.isActiveBombControl);
+            ExplosionButton = true;
+        }
+
     }
 
     public void CheckActiveButton()
@@ -268,9 +283,13 @@ public class BombController : MonoBehaviourPunCallbacks
 
     }
 
-    internal void Reset()
+    public void Reset()
     {
-        
+        canIPush = false;
+        explosionRadius = 1;
+        bombAmount = 1;
+        bombsRemaining = 1;
+        UIManager.Instance.HideItemIndicattor(ItemPickup.ItemType.PushItem);
     }
 }
 

@@ -49,16 +49,16 @@ public class InputManager : Singleton<InputManager>
 
         float x = joystickDirection.x;
         float y = joystickDirection.y;
-
+        Move = joystickDirection;
         // X ve Y değerlerini bağımsız olarak kontrol et
-        if (Mathf.Abs(x) > Mathf.Abs(y))
-        {
-            Move = new Vector2(x, 0f).normalized; // Sadece x yönünde hareket et
-        }
-        else
-        {
-            Move = new Vector2(0f, y).normalized; // Sadece y yönünde hareket et
-        }
+        //if (Mathf.Abs(x) > Mathf.Abs(y))
+        //{
+        //    Move = new Vector2(x, 0f).normalized; // Sadece x yönünde hareket et
+        //}
+        //else  
+        //{
+        //    Move = new Vector2(0f, y).normalized; // Sadece y yönünde hareket et
+        //}
     }
 
     private void HandleKeyboard()

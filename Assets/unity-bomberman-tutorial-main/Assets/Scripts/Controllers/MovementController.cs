@@ -19,8 +19,7 @@ public class MovementController : Singleton<MovementController>
     public float speed = 2.5f; // Hareket hýzý
     private float maxSpeed = 4f; // Maksimum hareket hýzý
 
-    public GameObject GhostGo; // Hayalet nesnesi
-    public GameObject SpeedGo; // Hýz nesnesi
+
 
 
     [Header("Sprites")]
@@ -28,6 +27,10 @@ public class MovementController : Singleton<MovementController>
     public AnimatedSpriteRenderer spriteRendererDown; // Aþaðý dönük animasyonlu sprite renderer
     public AnimatedSpriteRenderer spriteRendererLeft; // Sola dönük animasyonlu sprite renderer
     public AnimatedSpriteRenderer spriteRendererRight; // Saða dönük animasyonlu sprite renderer
+    public AnimatedSpriteRenderer spriteRendererRightUp; // Yukarý dönük animasyonlu sprite renderer
+    public AnimatedSpriteRenderer spriteRendererRightDown; // Aþaðý dönük animasyonlu sprite renderer
+    public AnimatedSpriteRenderer spriteRendererLeftUp; // Sola dönük animasyonlu sprite renderer
+    public AnimatedSpriteRenderer spriteRendererLeftDown; // Saða dönük animasyonlu sprite renderer
     public AnimatedSpriteRenderer spriteRendererDeath; // Ölüm animasyonlu sprite renderer
     private AnimatedSpriteRenderer activeSpriteRenderer; // Aktif sprite renderer
     [SerializeField] private float moveDistance = 1; // Hareket mesafesi
@@ -35,9 +38,11 @@ public class MovementController : Singleton<MovementController>
     private float ghostDuration = 5f;//isGhoos'tu false çevir
     PhotonView view;
     PlayerController playerController;
+    UIManager uiManager;
     private void Awake()
     {
         playerController = GetComponent<PlayerController>();
+        uiManager = gameObject.GetComponent<UIManager>();
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown; // Baþlangýçta aþaðý dönük sprite renderer'ý aktif olarak ayarla
     }
@@ -50,6 +55,7 @@ public class MovementController : Singleton<MovementController>
     {
 
         if (view.IsMine && !playerController.isDead) SetDirection(InputManager.Instance.Move); // Hareket yönünü ayarla       c
+
     }
 
     private void FixedUpdate()
@@ -83,28 +89,61 @@ public class MovementController : Singleton<MovementController>
         Vector2 translation = direction * speed * Time.fixedDeltaTime; // Karakterin yapmasý gereken yer deðiþtirme
         rigidbody.MovePosition(position + translation); // Karakterin konumunu güncelle
     }
-
+    private int ToOne(float value)
+    {
+        return value > 0 ? 1 : -1;
+    }
     [SerializeField]
     private void SetDirection(Vector2 newDirection)
     {
+        var rightUp = Vector2.right + Vector2.up;
+        var rightDown = Vector2.right + Vector2.down;
+        var leftUp = Vector2.left + Vector2.up;
+        var leftDown = Vector2.left + Vector2.down;
 
+        var range = 0.3f;
         AnimatedSpriteRenderer spriteRenderer;
 
-        if (newDirection == Vector2.up)
+        var dirMove = newDirection;
+        //var deger = false ? 3 : 2; 
+        dirMove.x = Math.Abs(dirMove.x) >= range ? ToOne(dirMove.x) : Math.Abs(dirMove.x) > Math.Abs(dirMove.y) ? ToOne(dirMove.x) : 0;
+        dirMove.y = Math.Abs(dirMove.y) >= range ? ToOne(dirMove.y) : Math.Abs(dirMove.y) > Math.Abs(dirMove.x) ? ToOne(dirMove.y) : 0;
+
+
+        if (dirMove == Vector2.up)
         {
             spriteRenderer = spriteRendererUp;
         }
-        else if (newDirection == Vector2.down)
+        else if (dirMove == Vector2.down)
         {
             spriteRenderer = spriteRendererDown;
         }
-        else if (newDirection == Vector2.left)
+        else if (dirMove == Vector2.left)
         {
             spriteRenderer = spriteRendererLeft;
         }
-        else if (newDirection == Vector2.right)
+        else if (dirMove == Vector2.right)
         {
             spriteRenderer = spriteRendererRight;
+        }
+        else if (dirMove == rightUp)
+        {
+            spriteRenderer = spriteRendererRightUp;
+        }
+        else if (dirMove == rightDown)
+        {
+            spriteRenderer = spriteRendererRightDown;
+
+        }
+        else if (dirMove == leftUp)
+        {
+            spriteRenderer = spriteRendererLeftUp;
+
+        }
+        else if (dirMove == leftDown)
+        {
+            spriteRenderer = spriteRendererLeftDown;
+
         }
         else
         {
@@ -117,6 +156,10 @@ public class MovementController : Singleton<MovementController>
         spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
         spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
         spriteRendererRight.enabled = spriteRenderer == spriteRendererRight;
+        spriteRendererRightUp.enabled = spriteRenderer == spriteRendererRightUp;
+        spriteRendererRightDown.enabled = spriteRenderer == spriteRendererRightDown;
+        spriteRendererLeftUp.enabled = spriteRenderer == spriteRendererLeftUp;
+        spriteRendererLeftDown.enabled = spriteRenderer == spriteRendererLeftDown;
 
         activeSpriteRenderer = spriteRenderer;
         activeSpriteRenderer.idle = direction == Vector2.zero;
@@ -146,23 +189,40 @@ public class MovementController : Singleton<MovementController>
 
 
 
+    [PunRPC]
     public void Ghost()
     {
-        isGhost = true;
-        StartCoroutine(DisableGhostAfterDelay());
+        // Sadece yerel oyuncunun karakteri etkilenir
+        if (view.IsMine)
+        {
+            isGhost = true;
+            StartCoroutine(DisableGhostAfterDelay());
+        }
     }
+
     //isGhostu false çevir
     private IEnumerator DisableGhostAfterDelay()
     {
         yield return new WaitForSeconds(ghostDuration);
+        UIManager.Instance.HideItemIndicattor(ItemPickup.ItemType.Ghost);
 
         Vector2 RoundedPosition;
         var bombControler = GetComponent<BombController>();
         Collider2D hit;
 
 
-
-
+        do
+        {
+            RoundedPosition = transform.position;
+            RoundedPosition.x = Mathf.Round(RoundedPosition.x);
+            RoundedPosition.y = Mathf.Round(RoundedPosition.y);
+            hit = Physics2D.OverlapCircle(RoundedPosition, bombControler.placeBombRadius, bombControler.bombCantPlaceLayers);
+            Debug.Log("Duvar var!");
+            yield return new WaitForEndOfFrame();
+        } while (hit != null);
+        // open close prensibi
+        // geniþlemeye açýk müdahaleye kapalý
+        // simple responsibilitiy -> tek sorumluluk
         isGhost = false;
     }
 
@@ -185,7 +245,9 @@ public class MovementController : Singleton<MovementController>
         float oldSpeed = speed;
         speed = maxSpeed;
         yield return new WaitForSeconds(duration);
+        UIManager.Instance.HideItemIndicattor(ItemPickup.ItemType.SpeedIncrease);
         speed = 2.5f;
+
 
 
     }
@@ -193,6 +255,7 @@ public class MovementController : Singleton<MovementController>
     //çaðýralan item
     public void SpeedItem()
     {
+        UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.SpeedIncrease);
         StartCoroutine(SetSpeed(4f, 8f));
     }
 

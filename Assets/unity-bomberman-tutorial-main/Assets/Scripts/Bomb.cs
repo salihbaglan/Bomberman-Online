@@ -1,4 +1,5 @@
 ﻿using Photon.Pun;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -21,7 +22,6 @@ public class Bomb : MonoBehaviourPunCallbacks
     [SerializeField] private float movementSpeed = 1;
     [SerializeField] private float lifeTime = 1;
     private bool isInit = false;
-
     private void Start()
     {
         // Başlangıçta hedef pozisyonu mevcut pozisyona eşitle
@@ -43,13 +43,19 @@ public class Bomb : MonoBehaviourPunCallbacks
     // Her karede bir kez çağrılan Update fonksiyonu
     public void Update()
     {
-        if (!isInit) return;
+        if (!isInit || !photonView.IsMine) return;
         // Eğer mevcut pozisyon ile hedef pozisyon arasındaki mesafe 0'dan büyük ise
         if (Vector2.Distance(transform.position, targetPos) > 0)
         {
             // Transform pozisyonunu, hedef pozisyona doğru belirli bir hızla hareket ettir
             transform.position = Vector2.MoveTowards(transform.position, targetPos, Time.deltaTime * movementSpeed);
         }
+        var IsExplotionButtonActive = UIManager.Instance.ExplotionButton.activeSelf;
+        if (!IsExplotionButtonActive) Life();
+    }
+
+    private void Life()
+    {
         if (lifeTime > 0)
         {
             lifeTime -= Time.deltaTime;
@@ -69,6 +75,8 @@ public class Bomb : MonoBehaviourPunCallbacks
         this.targetPos = targetPos;
     }
 
+
+
     public void DoExplotion()
     {
         // Bombanýn bulunduðu konumu al
@@ -86,6 +94,7 @@ public class Bomb : MonoBehaviourPunCallbacks
         Explode(position, Vector2.right, explosionRadius);
 
         GameManager.Instance.localPlayer.AddRemainingBomb();
+
         Destroy(gameObject);
     }
 
@@ -126,6 +135,8 @@ public class Bomb : MonoBehaviourPunCallbacks
         Instantiate(destructiblePrefab, position, Quaternion.identity);
         hit.gameObject.SetActive(false);
     }
+
+
 
 
 }

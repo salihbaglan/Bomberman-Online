@@ -127,7 +127,7 @@ MonoBehaviour:
     type: 3}
   explosionLayerMask:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 8704
   explosionDuration: 0.5
   explosionRadius: 3
   MaxexplosionRadius: 7

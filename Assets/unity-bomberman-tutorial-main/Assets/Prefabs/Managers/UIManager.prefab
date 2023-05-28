@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6552704578496280143
+--- !u!1 &3472033486940514587
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6552704578496280129}
-  - component: {fileID: 6552704578496280128}
+  - component: {fileID: 3472033486940514581}
+  - component: {fileID: 3472033486940514586}
   m_Layer: 0
-  m_Name: SpawnPlayers
+  m_Name: UIManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6552704578496280129
+--- !u!4 &3472033486940514581
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6552704578496280143}
+  m_GameObject: {fileID: 3472033486940514587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 468.4482, y: 36.544056, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6552704578496280128
+--- !u!114 &3472033486940514586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6552704578496280143}
+  m_GameObject: {fileID: 3472033486940514587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9db42380378cd2d4f860263c126b5d0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f94eb85b773dae47884976bd1886bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 6188902852419878667, guid: 5a224b9da7306034fb6b24d3bae8d7d3,
-    type: 3}
-  spawnPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  ExplotionButton: {fileID: 0}
+  GhostGo: {fileID: 0}
+  SpeedGo: {fileID: 0}
+  MultiDropGo: {fileID: 0}
+  PushGo: {fileID: 0}
+  BombButtonGo: {fileID: 0}
+  LuckyGo: {fileID: 0}

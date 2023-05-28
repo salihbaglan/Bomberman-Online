@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviourPunCallbacks
     private BombController bombController;
     private MovementController movementController;
 
-
     public bool isDead = false;
     private void Start()
     {
@@ -39,6 +38,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         isDead = false;
         movementController.Reset();
         bombController.Reset();
+        UIManager.Instance.ResetUI();
         SpawnDeathSequence();
     }
     private void SpawnDeathSequence()
@@ -50,6 +50,10 @@ public class PlayerController : MonoBehaviourPunCallbacks
         movementController.spriteRendererDown.enabled = !isDead;
         movementController.spriteRendererLeft.enabled = !isDead;
         movementController.spriteRendererRight.enabled = !isDead;
+        movementController.spriteRendererRightUp.enabled = !isDead;
+        movementController.spriteRendererRightDown.enabled = !isDead;
+        movementController.spriteRendererLeftUp.enabled = !isDead;
+        movementController.spriteRendererLeftDown.enabled = !isDead;
         movementController.spriteRendererDeath.enabled = isDead;
 
         Invoke(nameof(OnDeathSequenceEnded), 1.25f);

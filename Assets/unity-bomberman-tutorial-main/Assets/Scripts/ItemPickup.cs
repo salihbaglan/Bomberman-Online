@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,6 +30,7 @@ public class ItemPickup : MonoBehaviour
         {
             return;
         }
+        UIManager.Instance.ShowItemIndicattor(type);
 
         switch (type)
         {
@@ -66,7 +68,7 @@ public class ItemPickup : MonoBehaviour
 
             case ItemType.isActiveBombControl:
                 player.GetComponent<BombController>().ExplosionButtonItem(); // Patlama düðmesini aktif hale getiren fonksiyonu çaðýrýr
-                UIManager.Instance.SetExplotionButtonState(true);
+                //UIManager.Instance.SetExplotionButtonState(true);
                 break;
 
             case ItemType.luckItem:
@@ -88,6 +90,13 @@ public class ItemPickup : MonoBehaviour
     }
 
     // Önceki kodun devamý...
+    IEnumerator HideItemIndicatorAfterDelay(ItemPickup.ItemType itemType, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        UIManager.Instance.HideItemIndicattor(itemType);
+    }
+
 
     public void SelectRandomItem(GameObject player)
     {
@@ -101,6 +110,7 @@ public class ItemPickup : MonoBehaviour
         do
         {
             randomItemType = availableItemTypes[Random.Range(0, availableItemTypes.Count)];
+            
         } while (randomItemType == lastSelectedItemType);
 
         // Seçilen öðe türünü listeden çýkar
@@ -112,17 +122,20 @@ public class ItemPickup : MonoBehaviour
         {
             case ItemType.SpeedIncrease:
                 player.GetComponent<MovementController>().SpeedItem();
-                Debug.Log("1");
+                UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.SpeedIncrease);
+                StartCoroutine(HideItemIndicatorAfterDelay(ItemPickup.ItemType.SpeedIncrease, 5f));
                 break;
 
             case ItemType.MultiBomb:
                 player.GetComponent<BombController>().OnItemEaten();
-                Debug.Log("2");
+                UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.MultiBomb);
+                StartCoroutine(HideItemIndicatorAfterDelay(ItemPickup.ItemType.SpeedIncrease,5f));
                 break;
 
             case ItemType.Ghost:
                 player.GetComponent<MovementController>().Ghost();
-                Debug.Log("3");
+                UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.Ghost);
+                StartCoroutine(HideItemIndicatorAfterDelay(ItemPickup.ItemType.Ghost, 5f));
                 break;
         }
     }
