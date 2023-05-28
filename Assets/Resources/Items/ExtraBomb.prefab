@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -9086362109684464239}
   - component: {fileID: -440183884467646633}
   m_Layer: 11
-  m_Name: "Bomb-\u0130tem"
+  m_Name: ExtraBomb
   m_TagString: BombItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

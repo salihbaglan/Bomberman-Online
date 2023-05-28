@@ -746,7 +746,7 @@ MonoBehaviour:
   moveDistance: 0.3
   wallLayer:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 0
 --- !u!114 &5561990747018967736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +766,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 3939017888894637700, guid: 9a439e0b35b4779439d11d80f10cd1d8,
     type: 3}
   bombFuseTime: 2.5
-  bombAmount: 5
+  bombAmount: 1
   maxBombAmount: 7
   ExplosionButton: 0
   isActiveController: 0
@@ -779,7 +779,7 @@ MonoBehaviour:
   placeBombRadius: 0.4
   bombCantPlaceLayers:
     serializedVersion: 2
-    m_Bits: 8704
+    m_Bits: 8192
 --- !u!114 &-7792408413324765451
 MonoBehaviour:
   m_ObjectHideFlags: 0

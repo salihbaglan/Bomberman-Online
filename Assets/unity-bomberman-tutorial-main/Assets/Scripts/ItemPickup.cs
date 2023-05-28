@@ -1,8 +1,9 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+public class ItemPickup : MonoBehaviourPunCallbacks
 {
     public enum ItemType
     {
@@ -76,17 +77,20 @@ public class ItemPickup : MonoBehaviour
                 SelectRandomItem(playerObject);
                 break;
         }
-
-        Destroy(gameObject); // Öðeyi yok eder
+        gameObject.SetActive(false);
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            OnItemPickup(other.gameObject); // Oyuncu temas ettiðinde öðeyi toplar
+            if (other.GetComponent<PhotonView>().IsMine)
+                OnItemPickup(other.gameObject); // Oyuncu temas ettiðinde öðeyi toplar
+            if (PhotonNetwork.IsMasterClient)
+                PhotonNetwork.Destroy(gameObject);
         }
-  
+
     }
 
     // Önceki kodun devamý...
@@ -110,7 +114,7 @@ public class ItemPickup : MonoBehaviour
         do
         {
             randomItemType = availableItemTypes[Random.Range(0, availableItemTypes.Count)];
-            
+
         } while (randomItemType == lastSelectedItemType);
 
         // Seçilen öðe türünü listeden çýkar
@@ -129,7 +133,7 @@ public class ItemPickup : MonoBehaviour
             case ItemType.MultiBomb:
                 player.GetComponent<BombController>().OnItemEaten();
                 UIManager.Instance.ShowItemIndicattor(ItemPickup.ItemType.MultiBomb);
-                StartCoroutine(HideItemIndicatorAfterDelay(ItemPickup.ItemType.SpeedIncrease,5f));
+                StartCoroutine(HideItemIndicatorAfterDelay(ItemPickup.ItemType.SpeedIncrease, 5f));
                 break;
 
             case ItemType.Ghost:

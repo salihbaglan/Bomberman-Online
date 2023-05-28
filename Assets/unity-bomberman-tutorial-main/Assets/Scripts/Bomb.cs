@@ -67,6 +67,13 @@ public class Bomb : MonoBehaviourPunCallbacks
         }
     }
 
+    public void DoExplotion()
+    {
+        photonView.RPC("DoExplotionRPC", RpcTarget.All);
+        GameManager.Instance.localPlayer.AddRemainingBomb();
+        GameManager.Instance.localPlayer.GetComponent<BombController>().RemovoBomb(this);
+    }
+
 
     // Aşırı yükleme (overloading)
     public void Push(Vector2 targetPos)
@@ -76,8 +83,8 @@ public class Bomb : MonoBehaviourPunCallbacks
     }
 
 
-
-    public void DoExplotion()
+    [PunRPC]
+    public void DoExplotionRPC()
     {
         // Bombanýn bulunduðu konumu al
         Vector2 position = transform.position;
@@ -92,9 +99,6 @@ public class Bomb : MonoBehaviourPunCallbacks
         Explode(position, Vector2.down, explosionRadius);
         Explode(position, Vector2.left, explosionRadius);
         Explode(position, Vector2.right, explosionRadius);
-
-        GameManager.Instance.localPlayer.AddRemainingBomb();
-
         Destroy(gameObject);
     }
 

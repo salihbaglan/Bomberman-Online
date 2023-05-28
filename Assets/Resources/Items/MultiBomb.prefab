@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1420987305538588899}
   - component: {fileID: -2876969957530463887}
   m_Layer: 11
-  m_Name: "MultiBomb-\u0130tem"
+  m_Name: MultiBomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

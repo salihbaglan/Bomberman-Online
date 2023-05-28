@@ -118,9 +118,9 @@ public class BombController : MonoBehaviourPunCallbacks
         Gizmos.DrawSphere(bombPosition, placeBombRadius);
     }
 
-    internal void RemovoBomb(Bomb bomb)
+    public void RemovoBomb(Bomb bomb)
     {
-        if (bombs.Contains(bomb.gameObject))
+        //if (bombs.Contains(bomb.gameObject))
             bombs.Remove(bomb.gameObject);
     }
 
@@ -217,6 +217,7 @@ public class BombController : MonoBehaviourPunCallbacks
             {
                 PlaceBomb(); // Bomba býrakma kodunu çalýþtýr
             }
+            yield return new WaitForEndOfFrame(); // Belirlenen aralýklarla bomba býrak
 
             timer += bombDropInterval;
         }

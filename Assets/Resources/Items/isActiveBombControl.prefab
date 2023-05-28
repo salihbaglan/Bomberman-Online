@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2284929357081998520}
   - component: {fileID: -6714912635541491802}
   m_Layer: 11
-  m_Name: "BombKey-\u0130tem"
+  m_Name: isActiveBombControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4188867473033222382}
   - component: {fileID: 5567933648288674151}
   m_Layer: 11
-  m_Name: JumpBrock-item
+  m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
