@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: 69aecb628bcdb5f4a80849de2bd0c7ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6819076681099783181
+    second: "Emin\xC7arpaz_0"
+  - first:
+      213: 6852196699370092990
+    second: "Emin\xC7arpaz_1"
+  - first:
+      213: 3373240224811948698
+    second: "Emin\xC7arpaz_2"
+  - first:
+      213: -4919268382129159370
+    second: "Emin\xC7arpaz_3"
+  - first:
+      213: 1571290555882409390
+    second: "Emin\xC7arpaz_4"
+  - first:
+      213: -5996133779971741891
+    second: "Emin\xC7arpaz_5"
+  - first:
+      213: -806125936081218112
+    second: "Emin\xC7arpaz_6"
+  - first:
+      213: 7427964360975118733
+    second: "Emin\xC7arpaz_7"
+  - first:
+      213: -3276109181451404722
+    second: "Emin\xC7arpaz_8"
+  - first:
+      213: 5019945104879409418
+    second: "Emin\xC7arpaz_9"
+  - first:
+      213: -7362811080061872822
+    second: "Emin\xC7arpaz_10"
+  - first:
+      213: 2019939739172914683
+    second: "Emin\xC7arpaz_11"
+  - first:
+      213: -8949265777585233532
+    second: "Emin\xC7arpaz_12"
+  - first:
+      213: 1226734802825247314
+    second: "Emin\xC7arpaz_13"
+  - first:
+      213: 4169809493303774254
+    second: "Emin\xC7arpaz_14"
+  - first:
+      213: -8298993267322719913
+    second: "Emin\xC7arpaz_15"
+  - first:
+      213: 6888158396039390266
+    second: "Emin\xC7arpaz_16"
+  - first:
+      213: 7854738414609761125
+    second: "Emin\xC7arpaz_17"
+  - first:
+      213: -127199161905494187
+    second: "Emin\xC7arpaz_18"
+  - first:
+      213: -7320204293462753067
+    second: "Emin\xC7arpaz_19"
+  - first:
+      213: 1207659777714179682
+    second: "Emin\xC7arpaz_20"
+  - first:
+      213: 764156527890419622
+    second: "Emin\xC7arpaz_21"
+  - first:
+      213: 3054369135965982864
+    second: "Emin\xC7arpaz_22"
+  - first:
+      213: -3010252572859556828
+    second: "Emin\xC7arpaz_23"
+  - first:
+      213: -7907411946056284968
+    second: "Emin\xC7arpaz_24"
+  - first:
+      213: 1117550385216785380
+    second: "Emin\xC7arpaz_25"
+  - first:
+      213: 3655724569951322330
+    second: "Emin\xC7arpaz_26"
+  - first:
+      213: -5689761052952700437
+    second: "Emin\xC7arpaz_27"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_0"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c2a19cc1a32ae50800000000000000
+      internalID: 6819076681099783181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_1"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 235
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9fe05f794e71f50800000000000000
+      internalID: 6852196699370092990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_2"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 234
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a99fdbc1820de20800000000000000
+      internalID: 3373240224811948698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_3"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 236
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6338168487f3bbbb0800000000000000
+      internalID: -4919268382129159370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_4"
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead0c4e7f685ec510800000000000000
+      internalID: 1571290555882409390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_5"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d376013981479cca0800000000000000
+      internalID: -5996133779971741891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_6"
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c556af6bb010d4f0800000000000000
+      internalID: -806125936081218112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_7"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 207
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fe243b3e651760800000000000000
+      internalID: 7427964360975118733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_8"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 207
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a713a9e0ce882d0800000000000000
+      internalID: -3276109181451404722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_9"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 207
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095c40e97d6aa540800000000000000
+      internalID: 5019945104879409418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_10"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 207
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a451a90255a02d990800000000000000
+      internalID: -7362811080061872822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_11"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 205
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5c81d9d74480c10800000000000000
+      internalID: 2019939739172914683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_12"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 206
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481e876c032ddc380800000000000000
+      internalID: -8949265777585233532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_13"
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 207
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af10cbdcc360110800000000000000
+      internalID: 1226734802825247314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_14"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 181
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c4c6d34a32ed930800000000000000
+      internalID: 4169809493303774254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_15"
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 181
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751fed3e79d04dc80800000000000000
+      internalID: -8298993267322719913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_16"
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 181
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a346d80f097a79f50800000000000000
+      internalID: 6888158396039390266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_17"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 180
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5630e6ec8f2a10d60800000000000000
+      internalID: 7854738414609761125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_18"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 180
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55745e249091c3ef0800000000000000
+      internalID: -127199161905494187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_19"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 181
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d00ddcaaf8696a90800000000000000
+      internalID: -7320204293462753067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_20"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 180
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e4e2c5b2872c010800000000000000
+      internalID: 1207659777714179682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_21"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 153
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af44bd3054da9a00800000000000000
+      internalID: 764156527890419622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_22"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 154
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905b22eb8c436a20800000000000000
+      internalID: 3054369135965982864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_23"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 153
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c1086eb3f6936d0800000000000000
+      internalID: -3010252572859556828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_24"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 153
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d482a6faba334290800000000000000
+      internalID: -7907411946056284968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_25"
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 154
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb82718726528f00800000000000000
+      internalID: 1117550385216785380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_26"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 154
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0cd94a02ebbb230800000000000000
+      internalID: 3655724569951322330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Emin\xC7arpaz_27"
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 154
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9d6edc778e901b0800000000000000
+      internalID: -5689761052952700437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

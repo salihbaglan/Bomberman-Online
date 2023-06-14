@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: a77ac289cafba0946b6f9ab3abd2dc4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -173734758071695861
+    second: "Muhammed\xC7arpazt_0"
+  - first:
+      213: -2768491143920244816
+    second: "Muhammed\xC7arpazt_1"
+  - first:
+      213: 3915062600347949620
+    second: "Muhammed\xC7arpazt_2"
+  - first:
+      213: -4448544632514404772
+    second: "Muhammed\xC7arpazt_3"
+  - first:
+      213: -4721735310722635772
+    second: "Muhammed\xC7arpazt_4"
+  - first:
+      213: -4323108699149920437
+    second: "Muhammed\xC7arpazt_5"
+  - first:
+      213: 3756975916664720074
+    second: "Muhammed\xC7arpazt_6"
+  - first:
+      213: 96020326195077113
+    second: "Muhammed\xC7arpazt_7"
+  - first:
+      213: -3307906180495434347
+    second: "Muhammed\xC7arpazt_8"
+  - first:
+      213: 8851310673213541136
+    second: "Muhammed\xC7arpazt_9"
+  - first:
+      213: -3939194889508020479
+    second: "Muhammed\xC7arpazt_10"
+  - first:
+      213: 4713301114752040774
+    second: "Muhammed\xC7arpazt_11"
+  - first:
+      213: 709447412802224165
+    second: "Muhammed\xC7arpazt_12"
+  - first:
+      213: -4362623970226267153
+    second: "Muhammed\xC7arpazt_13"
+  - first:
+      213: -4354851309458675119
+    second: "Muhammed\xC7arpazt_14"
+  - first:
+      213: 1527570990357158329
+    second: "Muhammed\xC7arpazt_15"
+  - first:
+      213: 7824136481423813313
+    second: "Muhammed\xC7arpazt_16"
+  - first:
+      213: -6969249817958021554
+    second: "Muhammed\xC7arpazt_17"
+  - first:
+      213: 4847776355033882720
+    second: "Muhammed\xC7arpazt_18"
+  - first:
+      213: -6277580890684432827
+    second: "Muhammed\xC7arpazt_19"
+  - first:
+      213: -7212764329014190777
+    second: "Muhammed\xC7arpazt_20"
+  - first:
+      213: 4416663334910254489
+    second: "Muhammed\xC7arpazt_21"
+  - first:
+      213: -1334382605352598059
+    second: "Muhammed\xC7arpazt_22"
+  - first:
+      213: 6816263115530484294
+    second: "Muhammed\xC7arpazt_23"
+  - first:
+      213: 7454478406029127344
+    second: "Muhammed\xC7arpazt_24"
+  - first:
+      213: 8945513182394075844
+    second: "Muhammed\xC7arpazt_25"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

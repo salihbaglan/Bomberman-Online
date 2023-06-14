@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/unity-bomberman-tutorial-main/Assets/Scenes/ConnectToServer.unity
+    path: Assets/Scenes/ConnectToServer.unity
     guid: c3547f0dcbc44d54594cb16eb4af814f
   - enabled: 1
-    path: Assets/unity-bomberman-tutorial-main/Assets/Scenes/Bomberman.unity
+    path: Assets/Scenes/Bomberman.unity
     guid: 64867cb547e22754fb699515efaa79f3
+  - enabled: 0
+    path: Assets/Scenes/Lobby.unity
+    guid: 5c37c6718c996ac4d971b452e7bf29ab
   m_configObjects: {}

@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -340014048505993176}
   - component: {fileID: 8392533438007358704}
   m_Layer: 11
-  m_Name: "Fast-\u0130tem"
-  m_TagString: Untagged
+  m_Name: SpeedIncrease
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

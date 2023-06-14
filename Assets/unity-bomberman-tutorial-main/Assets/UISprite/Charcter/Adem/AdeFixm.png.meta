@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 03ce21fa0b86f694da039e269ec4bd6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5439573622861115637
+    second: AdeFixm_0
+  - first:
+      213: 2254988209129235947
+    second: AdeFixm_1
+  - first:
+      213: -505614270116257056
+    second: AdeFixm_2
+  - first:
+      213: -7861423365647183704
+    second: AdeFixm_3
+  - first:
+      213: 5439944485110353263
+    second: AdeFixm_4
+  - first:
+      213: -3078639323250665412
+    second: AdeFixm_5
+  - first:
+      213: -200552706179575856
+    second: AdeFixm_6
+  - first:
+      213: 542657397854392879
+    second: AdeFixm_7
+  - first:
+      213: 1383714964413854605
+    second: AdeFixm_8
+  - first:
+      213: 6978148547966991
+    second: AdeFixm_9
+  - first:
+      213: 3489773605561984670
+    second: AdeFixm_10
+  - first:
+      213: -5228082779565736294
+    second: AdeFixm_11
+  - first:
+      213: 2173190368197316367
+    second: AdeFixm_12
+  - first:
+      213: 7827498510923108046
+    second: AdeFixm_13
+  - first:
+      213: -1129853539457633412
+    second: AdeFixm_14
+  - first:
+      213: -186476854823037085
+    second: AdeFixm_15
+  - first:
+      213: 8507895568194733199
+    second: AdeFixm_16
+  - first:
+      213: -4576620798827194497
+    second: AdeFixm_17
+  - first:
+      213: 1050994149257971420
+    second: AdeFixm_18
+  - first:
+      213: -1188123835913885321
+    second: AdeFixm_19
+  - first:
+      213: 4337075994161071908
+    second: AdeFixm_20
+  - first:
+      213: -7331548508557505285
+    second: AdeFixm_21
+  - first:
+      213: -675235163332256136
+    second: AdeFixm_22
+  - first:
+      213: 2381598967073494730
+    second: AdeFixm_23
+  - first:
+      213: 2743336385059305722
+    second: AdeFixm_24
+  - first:
+      213: 2556334290108330337
+    second: AdeFixm_25
+  - first:
+      213: 2765023742119994948
+    second: AdeFixm_26
+  - first:
+      213: -7790816733709760776
+    second: AdeFixm_27
+  - first:
+      213: 8856719174825224548
+    second: AdeFixm_28
+  - first:
+      213: 6665302801270753548
+    second: AdeFixm_29
+  - first:
+      213: -5643409789404780675
+    second: AdeFixm_30
+  - first:
+      213: 1877914272043446900
+    second: AdeFixm_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AdeFixm_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 224
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b830d36f3d7b40800000000000000
+      internalID: 5439573622861115637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 224
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a7d924d35b4f10800000000000000
+      internalID: 2254988209129235947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 224
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e22a5c0082bbf8f0800000000000000
+      internalID: -505614270116257056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 224
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d4adb91d96e290800000000000000
+      internalID: -7861423365647183704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 224
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d09d8efa09e7b40800000000000000
+      internalID: 5439944485110353263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38581ac8d97645d0800000000000000
+      internalID: -3078639323250665412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 224
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4c65506e773df0800000000000000
+      internalID: -200552706179575856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 224
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2259d93708e78700800000000000000
+      internalID: 542657397854392879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 201
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83b74ccd61f33310800000000000000
+      internalID: 1383714964413854605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 201
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083461d69ac81000800000000000000
+      internalID: 6978148547966991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 201
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e966e0aca9a2e6030800000000000000
+      internalID: 3489773605561984670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 201
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9eb5ab596e1277b0800000000000000
+      internalID: -5228082779565736294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_12
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 201
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f83b53029b82e10800000000000000
+      internalID: 2173190368197316367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 201
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece887f7c6cd0ac60800000000000000
+      internalID: 7827498510923108046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 201
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73f86c2134f150f0800000000000000
+      internalID: -1129853539457633412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 201
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d07dd940896df0800000000000000
+      internalID: -186476854823037085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 175
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f840e5841fd121670800000000000000
+      internalID: 8507895568194733199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 176
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779d36a1a39c70c0800000000000000
+      internalID: -4576620798827194497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 177
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6098f3c91e59e00800000000000000
+      internalID: 1050994149257971420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 176
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ad2b8aafe28fe0800000000000000
+      internalID: -1188123835913885321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 176
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42748db43a3603c30800000000000000
+      internalID: 4337075994161071908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 176
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc82e5c97b114a90800000000000000
+      internalID: -7331548508557505285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 176
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5abd423511a6f0800000000000000
+      internalID: -675235163332256136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 176
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac65add64a32d0120800000000000000
+      internalID: 2381598967073494730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 153
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af83dda48e9421620800000000000000
+      internalID: 2743336385059305722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 153
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161be092e7ce97320800000000000000
+      internalID: 2556334290108330337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 153
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446659891765f5620800000000000000
+      internalID: 2765023742119994948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f68f0d457571e390800000000000000
+      internalID: -7790816733709760776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 153
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46929d22a2369ea70800000000000000
+      internalID: 8856719174825224548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_29
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 153
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09c82e5599ef7c50800000000000000
+      internalID: 6665302801270753548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_30
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 153
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77e09452b49ea1b0800000000000000
+      internalID: -5643409789404780675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AdeFixm_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 153
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47239cfa411bf0a10800000000000000
+      internalID: 1877914272043446900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

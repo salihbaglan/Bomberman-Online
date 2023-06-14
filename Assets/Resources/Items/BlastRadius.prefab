@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 3917543817156061459}
   - component: {fileID: 8960693312762491373}
   m_Layer: 11
-  m_Name: "Blast-\u0130tem"
-  m_TagString: Untagged
+  m_Name: BlastRadius
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

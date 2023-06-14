@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 153846c94e9a1c3448457f8e1c1c1ade
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6935260842648991548
+    second: "Muhammed\xC7arpazFixedt_0"
+  - first:
+      213: -2048747217344198400
+    second: "Muhammed\xC7arpazFixedt_1"
+  - first:
+      213: -834572212531981132
+    second: "Muhammed\xC7arpazFixedt_2"
+  - first:
+      213: -5416265271020700571
+    second: "Muhammed\xC7arpazFixedt_3"
+  - first:
+      213: -3233725141634024485
+    second: "Muhammed\xC7arpazFixedt_4"
+  - first:
+      213: 6492812408725766655
+    second: "Muhammed\xC7arpazFixedt_5"
+  - first:
+      213: -2919349990129630998
+    second: "Muhammed\xC7arpazFixedt_6"
+  - first:
+      213: -6861471854470533467
+    second: "Muhammed\xC7arpazFixedt_7"
+  - first:
+      213: -8707546449962836952
+    second: "Muhammed\xC7arpazFixedt_8"
+  - first:
+      213: -1746273293089155777
+    second: "Muhammed\xC7arpazFixedt_9"
+  - first:
+      213: 4338209228895227613
+    second: "Muhammed\xC7arpazFixedt_10"
+  - first:
+      213: 6997319170306206196
+    second: "Muhammed\xC7arpazFixedt_11"
+  - first:
+      213: 2712230239193773649
+    second: "Muhammed\xC7arpazFixedt_12"
+  - first:
+      213: -5933733959939712745
+    second: "Muhammed\xC7arpazFixedt_13"
+  - first:
+      213: -1147556565909236462
+    second: "Muhammed\xC7arpazFixedt_14"
+  - first:
+      213: -4521733827997379282
+    second: "Muhammed\xC7arpazFixedt_15"
+  - first:
+      213: -6459575386352248756
+    second: "Muhammed\xC7arpazFixedt_16"
+  - first:
+      213: -1965753480512589262
+    second: "Muhammed\xC7arpazFixedt_17"
+  - first:
+      213: -9137030879867427888
+    second: "Muhammed\xC7arpazFixedt_18"
+  - first:
+      213: 5133895796315414500
+    second: "Muhammed\xC7arpazFixedt_19"
+  - first:
+      213: 3611673675212226871
+    second: "Muhammed\xC7arpazFixedt_20"
+  - first:
+      213: 3520983277858299522
+    second: "Muhammed\xC7arpazFixedt_21"
+  - first:
+      213: -8683445052051001075
+    second: "Muhammed\xC7arpazFixedt_22"
+  - first:
+      213: 2378843710733778434
+    second: "Muhammed\xC7arpazFixedt_23"
+  - first:
+      213: 8050726041263074615
+    second: "Muhammed\xC7arpazFixedt_24"
+  - first:
+      213: 9118459711399997784
+    second: "Muhammed\xC7arpazFixedt_25"
+  - first:
+      213: 826655115029774285
+    second: "Muhammed\xC7arpazFixedt_26"
+  - first:
+      213: -5624851226900544849
+    second: "Muhammed\xC7arpazFixedt_27"
+  - first:
+      213: 4844792338263007844
+    second: "Muhammed\xC7arpazFixedt_28"
+  - first:
+      213: 8999996117082887786
+    second: "Muhammed\xC7arpazFixedt_29"
+  - first:
+      213: 6015932923627611043
+    second: "Muhammed\xC7arpazFixedt_30"
+  - first:
+      213: 7131961233679608665
+    second: "Muhammed\xC7arpazFixedt_31"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_0"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c80b39120101cf90800000000000000
+      internalID: -6935260842648991548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_1"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 232
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00901a3b2436193e0800000000000000
+      internalID: -2048747217344198400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_2"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49e949ef00b64f0800000000000000
+      internalID: -834572212531981132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_3"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cb68fbe6f85d4b0800000000000000
+      internalID: -5416265271020700571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_4"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 232
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb77afdd108f13d0800000000000000
+      internalID: -3233725141634024485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_5"
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 233
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1095f3c7a1b1a50800000000000000
+      internalID: 6492812408725766655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_6"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 232
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0884fb6a26c77d0800000000000000
+      internalID: -2919349990129630998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_7"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 232
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae61f5b3b727c0a0800000000000000
+      internalID: -6861471854470533467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_8"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 203
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c50c863a4982780800000000000000
+      internalID: -8707546449962836952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_9"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 203
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f355bac21bdf3c7e0800000000000000
+      internalID: -1746273293089155777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_10"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 204
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0f911f4a643c30800000000000000
+      internalID: 4338209228895227613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_11"
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 204
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9e12646b87b1160800000000000000
+      internalID: 6997319170306206196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_12"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 204
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156b7345807c3a520800000000000000
+      internalID: 2712230239193773649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_13"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 204
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7191f16d66427ada0800000000000000
+      internalID: -5933733959939712745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_14"
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 204
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2151051226f0310f0800000000000000
+      internalID: -1147556565909236462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_15"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 204
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2559556a039f31c0800000000000000
+      internalID: -4521733827997379282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_16"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 178
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c481e90196afa56a0800000000000000
+      internalID: -6459575386352248756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_17"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 177
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2323f0edf9d38b4e0800000000000000
+      internalID: -1965753480512589262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_18"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 177
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d32ab723deb23180800000000000000
+      internalID: -9137030879867427888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_19"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 177
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef5045b6034f3740800000000000000
+      internalID: 5133895796315414500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_20"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 176
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73187a7721e3f1230800000000000000
+      internalID: 3611673675212226871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_21"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 177
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e95d0e2ab0dd030800000000000000
+      internalID: 3520983277858299522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_22"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 177
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0170e56bb43e7780800000000000000
+      internalID: -8683445052051001075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_23"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 178
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e757250c9530120800000000000000
+      internalID: 2378843710733778434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_24"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 152
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73de8711eace9bf60800000000000000
+      internalID: 8050726041263074615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_25"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 151
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85135bcbbc64b8e70800000000000000
+      internalID: 9118459711399997784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_26"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 151
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcffb13827ed87b00800000000000000
+      internalID: 826655115029774285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_27"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 150
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa24c226c9380f1b0800000000000000
+      internalID: -5624851226900544849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_28"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 151
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46263bc76f82c3340800000000000000
+      internalID: 4844792338263007844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_29"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 151
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66de92d8c866ec70800000000000000
+      internalID: 8999996117082887786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_30"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 151
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a669ce13ec7350800000000000000
+      internalID: 6015932923627611043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Muhammed\xC7arpazFixedt_31"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b645d84f0d9f260800000000000000
+      internalID: 7131961233679608665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

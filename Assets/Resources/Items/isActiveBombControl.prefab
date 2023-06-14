@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -6714912635541491802}
   m_Layer: 11
   m_Name: isActiveBombControl
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f6ea6da7331cd43a8054def0e6cd28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 8
+  type: 7
 --- !u!114 &-6714912635541491802
 MonoBehaviour:
   m_ObjectHideFlags: 0

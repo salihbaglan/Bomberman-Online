@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: d3f278438691bca4f9d5428cd4cbaa02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7063613630474415790
+    second: EminFixed_0
+  - first:
+      213: -6489146653325883526
+    second: EminFixed_1
+  - first:
+      213: 7442921650338799065
+    second: EminFixed_2
+  - first:
+      213: 520242682610829499
+    second: EminFixed_3
+  - first:
+      213: -5577494832851754285
+    second: EminFixed_4
+  - first:
+      213: 8200991102770727134
+    second: EminFixed_5
+  - first:
+      213: -3994037922503203214
+    second: EminFixed_6
+  - first:
+      213: -6060635658126891118
+    second: EminFixed_7
+  - first:
+      213: 4888886789712330950
+    second: EminFixed_8
+  - first:
+      213: -8485705589699977575
+    second: EminFixed_9
+  - first:
+      213: 1953077357566732892
+    second: EminFixed_10
+  - first:
+      213: -6156896915674856870
+    second: EminFixed_11
+  - first:
+      213: -3582304215544072585
+    second: EminFixed_12
+  - first:
+      213: -765330589829886457
+    second: EminFixed_13
+  - first:
+      213: 794120640226150832
+    second: EminFixed_14
+  - first:
+      213: -6531090508125048956
+    second: EminFixed_15
+  - first:
+      213: 4980726426293006826
+    second: EminFixed_16
+  - first:
+      213: 6963550082333936438
+    second: EminFixed_17
+  - first:
+      213: -1186006927951815051
+    second: EminFixed_18
+  - first:
+      213: 240460165323038350
+    second: EminFixed_19
+  - first:
+      213: 1408533963783921351
+    second: EminFixed_20
+  - first:
+      213: 8117805100422476417
+    second: EminFixed_21
+  - first:
+      213: 2100467939738028583
+    second: EminFixed_22
+  - first:
+      213: -874354528726442605
+    second: EminFixed_23
+  - first:
+      213: -8342874241506134732
+    second: EminFixed_24
+  - first:
+      213: -5816631887394817196
+    second: EminFixed_25
+  - first:
+      213: 7264828228676926756
+    second: EminFixed_26
+  - first:
+      213: 7689360518397368683
+    second: EminFixed_27
+  - first:
+      213: -5837963005813582400
+    second: EminFixed_28
+  - first:
+      213: -8825857416927833091
+    second: EminFixed_29
+  - first:
+      213: -8368553248272669283
+    second: EminFixed_30
+  - first:
+      213: -7082537566097571802
+    second: EminFixed_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EminFixed_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaee80b1c2ff60260800000000000000
+      internalID: 7063613630474415790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778811ff7be1f5a0800000000000000
+      internalID: -6489146653325883526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 236
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd12838ec19a4760800000000000000
+      internalID: 7442921650338799065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 236
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c306a6f5483700800000000000000
+      internalID: 520242682610829499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 236
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d26b471002c892b0800000000000000
+      internalID: -5577494832851754285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 236
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c9ce05f5cfc170800000000000000
+      internalID: 8200991102770727134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 236
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276e1c9bba35298c0800000000000000
+      internalID: -3994037922503203214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 236
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297e744cafb44eba0800000000000000
+      internalID: -6060635658126891118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c047eff1a0d8d340800000000000000
+      internalID: 4888886789712330950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 211
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ed261b9b7bc3a80800000000000000
+      internalID: -8485705589699977575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 211
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aaf944289ba1b10800000000000000
+      internalID: 1953077357566732892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 211
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52808630ee4e8aa0800000000000000
+      internalID: -6156896915674856870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 211
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7767c1bbb49194ec0800000000000000
+      internalID: -3582304215544072585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 211
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e037922eff065f0800000000000000
+      internalID: -765330589829886457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 211
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b94c7dc388450b00800000000000000
+      internalID: 794120640226150832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 211
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fe74b39c7ec55a0800000000000000
+      internalID: -6531090508125048956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae17892bb481f1540800000000000000
+      internalID: 4980726426293006826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 189
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b0829c7ef73a060800000000000000
+      internalID: 6963550082333936438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 188
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e97469bf47a8fe0800000000000000
+      internalID: -1186006927951815051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 187
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e16b01f39465300800000000000000
+      internalID: 240460165323038350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 189
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ced9656d2e1c8310800000000000000
+      internalID: 1408533963783921351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 189
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18239869abc38a070800000000000000
+      internalID: 8117805100422476417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 188
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8e22667c562d10800000000000000
+      internalID: 2100467939738028583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 187
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d918b403badd3f0800000000000000
+      internalID: -874354528726442605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 160
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435354d6418283c80800000000000000
+      internalID: -8342874241506134732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b3f92cd1c274fa0800000000000000
+      internalID: -5816631887394817196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db48488cad1d460800000000000000
+      internalID: 7264828228676926756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b691df8c6a816ba60800000000000000
+      internalID: 7689360518397368683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 160
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c51c9ab3936bfea0800000000000000
+      internalID: -5837963005813582400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df315c1d071448580800000000000000
+      internalID: -8825857416927833091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9524c0c82decdb80800000000000000
+      internalID: -8368553248272669283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EminFixed_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6200568cb95c5bd90800000000000000
+      internalID: -7082537566097571802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

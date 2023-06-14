@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 3503ab9b7a9d0324cb2b194b8b8987ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4870904915920579640
+    second: FixedMuhammed_0
+  - first:
+      213: -7369551846331795154
+    second: FixedMuhammed_1
+  - first:
+      213: 1561009236636561773
+    second: FixedMuhammed_2
+  - first:
+      213: 7063418696730428827
+    second: FixedMuhammed_3
+  - first:
+      213: 480634268582902015
+    second: FixedMuhammed_4
+  - first:
+      213: 9105439738115453924
+    second: FixedMuhammed_5
+  - first:
+      213: -3639820538009419806
+    second: FixedMuhammed_6
+  - first:
+      213: -7225463532021365889
+    second: FixedMuhammed_7
+  - first:
+      213: -159502334262170547
+    second: FixedMuhammed_8
+  - first:
+      213: -7165973364932219422
+    second: FixedMuhammed_9
+  - first:
+      213: 2709615176458546148
+    second: FixedMuhammed_10
+  - first:
+      213: 9005377243489796882
+    second: FixedMuhammed_11
+  - first:
+      213: 7452986198538743563
+    second: FixedMuhammed_12
+  - first:
+      213: 3380950918923587206
+    second: FixedMuhammed_13
+  - first:
+      213: 7469651942615384926
+    second: FixedMuhammed_14
+  - first:
+      213: 8977392816502819193
+    second: FixedMuhammed_15
+  - first:
+      213: -2947541027922645258
+    second: FixedMuhammed_16
+  - first:
+      213: 5335374187347090782
+    second: FixedMuhammed_17
+  - first:
+      213: 2527629634016251188
+    second: FixedMuhammed_18
+  - first:
+      213: 7524431074923428355
+    second: FixedMuhammed_19
+  - first:
+      213: 8389920790597922319
+    second: FixedMuhammed_20
+  - first:
+      213: -525256539458050823
+    second: FixedMuhammed_21
+  - first:
+      213: 5090409061145589127
+    second: FixedMuhammed_22
+  - first:
+      213: -6961170497819235720
+    second: FixedMuhammed_23
+  - first:
+      213: 1293204805472602559
+    second: FixedMuhammed_24
+  - first:
+      213: 6700552174589741136
+    second: FixedMuhammed_25
+  - first:
+      213: -1875459606120995493
+    second: FixedMuhammed_26
+  - first:
+      213: -4023167545463270561
+    second: FixedMuhammed_27
+  - first:
+      213: 281318349379951555
+    second: FixedMuhammed_28
+  - first:
+      213: 4199000803211649748
+    second: FixedMuhammed_29
+  - first:
+      213: 3500303095153032801
+    second: FixedMuhammed_30
+  - first:
+      213: -6727089241784295189
+    second: FixedMuhammed_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FixedMuhammed_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 231
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c399df39c1176cb0800000000000000
+      internalID: -4870904915920579640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 231
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29b19d24a71ab990800000000000000
+      internalID: -7369551846331795154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 231
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6173d051a1d9a510800000000000000
+      internalID: 1561009236636561773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 231
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95487e81ed460260800000000000000
+      internalID: 7063418696730428827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 231
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff873cd125e8ba600800000000000000
+      internalID: 480634268582902015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 231
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3f81af2350d5e70800000000000000
+      internalID: 9105439738115453924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 231
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eff6c95182cc7dc0800000000000000
+      internalID: -3639820538009419806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 231
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73c354233ff9bb90800000000000000
+      internalID: -7225463532021365889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 205
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c2579d87559cdf0800000000000000
+      internalID: -159502334262170547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 206
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eded4901395d8c90800000000000000
+      internalID: -7165973364932219422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 206
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eba1d695ac7a9520800000000000000
+      internalID: 2709615176458546148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 206
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2138892f3e689fc70800000000000000
+      internalID: 9005377243489796882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 206
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f6acfb5735e6760800000000000000
+      internalID: 7452986198538743563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 206
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e887d92fc8bee20800000000000000
+      internalID: 3380950918923587206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 206
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53856badd889a760800000000000000
+      internalID: 7469651942615384926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 206
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9794bccc33b169c70800000000000000
+      internalID: 8977392816502819193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 176
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fee7c54d0b3817d0800000000000000
+      internalID: -2947541027922645258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d9c9c2e8e0b0a40800000000000000
+      internalID: 5335374187347090782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 176
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0a4b92c1f31320800000000000000
+      internalID: 2527629634016251188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 176
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ab8bd42362c6860800000000000000
+      internalID: 7524431074923428355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 177
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ee041e18cfe6470800000000000000
+      internalID: 8389920790597922319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 177
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4e6a5d5f9e5b8f0800000000000000
+      internalID: -525256539458050823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 177
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785330b2214c4a640800000000000000
+      internalID: 5090409061145589127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 175
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a2e886054f46f90800000000000000
+      internalID: -6961170497819235720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 153
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9c50c3be262f110800000000000000
+      internalID: 1293204805472602559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 153
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0588465a3b42dfc50800000000000000
+      internalID: 6700552174589741136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 153
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b556092cc6709f5e0800000000000000
+      internalID: -1875459606120995493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 153
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5318ccde66da28c0800000000000000
+      internalID: -4023167545463270561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 153
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb579b5c8177e300800000000000000
+      internalID: 281318349379951555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_29
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 153
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2a207bbf8d54a30800000000000000
+      internalID: 4199000803211649748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 153
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16efbc0ae13939030800000000000000
+      internalID: 3500303095153032801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FixedMuhammed_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 153
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0681be9f394a2a0800000000000000
+      internalID: -6727089241784295189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

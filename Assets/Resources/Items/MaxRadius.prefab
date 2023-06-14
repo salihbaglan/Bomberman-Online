@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -3763573681761500087}
   - component: {fileID: 6517153993886357013}
   m_Layer: 11
-  m_Name: "MultiBlast-\u0130tem"
-  m_TagString: Untagged
+  m_Name: MaxRadius
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f6ea6da7331cd43a8054def0e6cd28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 7
+  type: 6
 --- !u!114 &6517153993886357013
 MonoBehaviour:
   m_ObjectHideFlags: 0

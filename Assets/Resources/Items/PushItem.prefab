@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -4245148855232557740}
   - component: {fileID: 5635025908543538966}
   m_Layer: 11
-  m_Name: Push-item
-  m_TagString: Untagged
+  m_Name: PushItem
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

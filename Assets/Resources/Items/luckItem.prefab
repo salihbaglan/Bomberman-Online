@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7809425777092073109}
   - component: {fileID: 3097274133027750776}
   m_Layer: 11
-  m_Name: Lucky-item
-  m_TagString: Untagged
+  m_Name: luckItem
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f6ea6da7331cd43a8054def0e6cd28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 9
+  type: 8
 --- !u!61 &7809425777092073109
 BoxCollider2D:
   m_ObjectHideFlags: 0
